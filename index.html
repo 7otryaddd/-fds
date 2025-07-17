@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Декоди — Топ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #2b5876, #4e4376);
+      color: white;
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+
+    iframe {
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      margin-bottom: 100px; /* больше отступа под iframe */
+    }
+
+    .growing-image {
+      height: 200px;
+      width: 100px;
+      animation: stretchWidth 10s infinite alternate;
+      border-radius: 16px;
+      margin-top: 150px; /* делает картинку заметно ниже */
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+
+    @keyframes stretchWidth {
+      from {
+        width: 100px;
+      }
+      to {
+        width: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Декоди — ТОП! Декоди — ТОП! Декоди — ТОП! Декоди — ТОП! Декоди — ТОП! </h1>
+  <p>Если ты не веришь в него посмотри назад</p>
+
+  <!-- Встраиваемый трек -->
+  <iframe frameborder="0" allow="clipboard-write" style="border:none;width:614px;height:244px;" width="614" height="244" src="https://music.yandex.ru/iframe/album/23461850/track/107156580">
+    Слушайте <a href="https://music.yandex.ru/album/23461850/track/107156580">Блинчики</a> — 
+    <a href="https://music.yandex.ru/artist/6935957">Егор</a> на Яндекс Музыке
+  </iframe>
+
+  <!-- Картинка ещё ниже -->
+  <img class="growing-image" src="https://fv5-5.files.fm/thumb_show.php?i=42j62z8mma&view&v=1&PHPSESSID=cfa691d258cb5d346e32c94a88e9b5618276acf9" alt="Декоди картинка">
+</body>
+</html>
